@@ -1,0 +1,706 @@
+@media only screen and (max-width: 1200px) {
+    #homepage{
+        background-position:center;
+        aspect-ratio: 16/9;
+        height: 600px;
+
+    }
+
+    .content {
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+
+        .content h1 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 3.2rem;
+        }
+        .content a {
+            background-color: black;
+            color: white;
+            padding: 9px 15px;
+            margin-top: 0;
+            text-decoration: none;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        
+.product_image{
+    height:700px;
+    width: 90%;
+    position: relative;
+    background-image: url(../images/bg-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 150px;
+
+    }
+
+
+.image_2 img{
+    position:absolute;
+    margin-left: -147px;
+    margin-top: 169px;
+}
+
+
+
+.product_content h4{
+    margin-top: 100px;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ font-weight: 100;
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ 
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ 
+
+}
+.product_content p{
+    padding: 20px 0 20px 0;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.product_content a{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.product_image1{
+    height:700px;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/bg-04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -84px;
+    margin-bottom: 50px;
+    }
+
+
+.image_3 img{
+    margin-left:250px;
+}
+
+
+
+.product_content1 h4{
+    margin-top: 100px;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.product_content1 h1{
+    margin-top: 50px;
+    font-size: 64px;
+ font-weight: 100;
+
+}
+
+.product_content1 p{
+    padding: 20px 0 20px 0;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.product_content1 a{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+.product_details img {
+    width: 300px;
+}
+
+.product_details{
+
+    text-align: center;
+}
+.product_item {
+    gap: 83px;
+}
+
+.fragrance_image img {
+
+        height: 230px;
+        width: 220px;
+    }
+
+    .fragrance_side h1 {
+        font-size: 25px;
+    }
+    .mt-4 {
+        margin-top:0 !important;
+    }
+
+    .fragrance_side h1 {
+        margin-top: 46px;
+    }
+    .fragrance_side a {
+        font-size: 16px;
+        padding: 10px 15px;
+        margin-top: 0;}
+    
+    .fragrance_side .btn:hover {
+        background-color: transparent;
+        border:1px solid black
+        
+    }
+
+
+
+    .per_images img {
+        
+        width: 252px;
+        margin-top: 190px;
+        margin-right: 600px;
+    }
+
+        .content_item {
+            margin-left: 30px;
+        }
+    
+        .content_item h1 {
+            font-size: 42px;
+        }
+        .content_item h3 {
+            font-size: 20px;
+        }
+        .content_item p {
+            font-size: 16px;
+        }
+
+        .content_item a {
+            font-size: 16px;
+            padding: 10px 20px;
+        }
+
+        .category_view h1 {
+            font-size: 54px;
+        }
+       
+        .category_view h1::before {
+            content: '';
+           
+            margin-left: 160px;
+           }
+
+           .company_details h1 {
+            
+            font-size: 3rem;
+           }
+
+           .image img{
+            width: 100%;
+           }
+
+           .content_1 {
+            margin-top: 280px;
+        }
+
+           .content_1 h1 {
+            font-size: 3rem;}
+
+            .contact_us_text h1 {
+                font-size: 4rem;
+                       }
+
+                       .j-start{
+                        justify-content: center !important;
+                    }
+    }
+@media only screen and (max-width: 991px) {
+    #homepage{
+        background-position:center;
+        aspect-ratio: 16/9;
+        height: 600px;
+    }
+    .content {
+        margin-top: 80px;
+        margin-bottom: 0;
+    }
+
+        .content h1 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 3.2rem;
+        }
+
+
+
+        
+.product_image{
+   
+    width: 100%;
+    
+    background-position: bottom;
+    margin-left: 0;
+
+    }
+
+
+.image_2 img{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+
+
+.product_content {
+    height:480px;
+
+}
+.product_content1 {
+    height:520px;
+
+}
+.product_content h4{
+    margin-top: 100px;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ font-weight: 100;
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ 
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ 
+
+}
+.product_content p{
+    padding: 20px 0 20px 95px;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.product_content a{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.product_image1{
+   
+    margin-left: 0;
+    }
+
+
+.image_3 img{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+
+
+.product_content1 h4{
+    margin-top: 100px;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.product_content1 h1{
+    margin-top: 50px;
+    font-size: 64px;
+ font-weight: 100;
+
+}
+
+.product_content1 p{
+    padding: 20px 95px 20px 0;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.product_content1 a{
+    margin-bottom: 100px;
+}
+
+.g-h-6{
+    gap: 30px;
+}
+
+.fragrance_image img {
+    height: 328px;
+    width: 328px;
+}
+
+.fragrance_image {
+    gap: 40px;
+}
+.main_image img {
+    width: 694px;
+margin-top: 20px;}
+
+.fragrance_section .flex-wrap{
+    flex-wrap:wrap !important;
+}
+.fragrance_image img {
+    height: 250px;
+    width: 250px;
+}
+
+.fragrance_side h1 {
+    font-size: 28px;
+}
+.per_images img {
+    margin-right: 140px;
+}
+
+
+
+.content_item p {
+
+    font-weight: 900
+}
+
+.category_item img {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.category_view h1::before {
+    
+    margin-left: 160px;
+   }
+
+   .company_details h1 {
+    font-size: 2rem;
+}
+   .company_details p {
+    font-size: 0.7rem;
+}
+
+.content_1 h1 {
+    font-size: 3rem;}
+
+    .history_text {
+        margin: 50px 0px 50px 0;
+        text-align: center;
+    }
+
+    .form {
+        padding: 20px 0;
+        max-width: 400px;
+    }
+
+    .text_item{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+    }
+@media only screen and (min-width: 200px) and (max-width:768px){
+    #homepage{
+        background-position:center;
+        aspect-ratio: 16/9;
+        height: 600px;
+    }
+    .content {
+        margin-top: 150px;
+        margin-bottom: 0;
+    }
+
+        .content h1 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 3.2rem;
+        }
+
+
+        
+.product_image{
+    height:500px;
+    
+    margin-left: 0;
+
+    }
+
+
+.image_2 img{
+    width: 200px;
+    margin-left:0;
+    margin-top: 0;
+}
+
+
+
+.product_content h4{
+    margin-top: 100px;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ font-weight: 100;
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ 
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ 
+
+}
+.product_content p{
+    padding: 20px 0 20px 95px;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.product_content a{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.product_image1{
+    height:500px;
+    margin-bottom: 50px;
+
+    margin-left: 0;
+    }
+
+
+.image_3 img{
+    width: 200px;
+    margin-left:0;
+    margin-top: 0;
+}
+
+
+
+.product_content1 h4{
+    margin-top: 100px;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.product_content1 h1{
+    margin-top: 50px;
+    font-size: 64px;
+ font-weight: 100;
+
+}
+
+.product_content1 p{
+    padding: 20px 95px 20px 0;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.product_content1 a{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+.product_view h1{
+    font-size: 46px;
+}
+
+.product_item {
+    gap: 2px;
+}
+.fragrance_image img {
+    height: 360px;
+    width: 352px;
+}
+
+.main_image img {
+    margin-top: 10px;
+}
+.fragrance_image img {
+    height: 300px;
+    width: 300px;
+}
+
+.fragrance_side h1 {
+    font-size: 17px;
+}
+
+.fragrance_side a {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+.per_images img {
+    margin-right: 60px;
+}
+
+.reflective{
+    margin: 5px ;
+}
+
+.content_item {
+    margin-left: 0;
+    text-align: left;
+    width: 50%;
+}
+.content_item p {
+
+    font-size: 11px;
+    width: 140px;
+}
+.content_item h3 {
+
+    margin: 0px;
+    width: 160px;
+    font-size: 14px;
+}
+.content_item h1 {
+
+    margin: 0px;
+    width: auto;
+    font-size: 34px;
+}
+.content_item a {
+
+    font-size: 10px;
+    width: 108px;
+}
+
+.per_images {
+    margin-left: 0;
+    width: 50%;
+
+}
+
+.per_images img {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 280px;
+}
+
+.category_item{
+    flex-direction: column !important;
+}
+
+.category_item img {
+    height: 350px;
+}
+.category_view h1 {
+    font-size: 35px;
+}
+.category_view h1::before {
+    content: '';
+    
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.category_view {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact_us_text {
+    margin-top: 20px;
+}
+.title {
+    font-size: 24px; /* Slightly smaller title for mobile */
+}
+.Contact_details_1{
+    padding: 15px;
+}
+.form {
+    padding: 15px; /* Reduce padding for smaller screens */
+}
+
+.message, .signin {
+    font-size: 12px; /* Smaller text for mobile */
+}
+.shop_text1 {
+    margin-top: 50px;
+    text-align: end;
+    margin-right: 10px;
+}
+.text_item{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.shop_text h4 {
+    margin-top: 50px;
+    font-size: 14px;
+}
+.shop_text h1 {
+    margin-top: 10px;
+    font-size: 4.5rem;
+    font-weight: 100;
+}
+    }

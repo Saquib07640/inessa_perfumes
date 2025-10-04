@@ -1,0 +1,883 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    font-size: 14px;
+    font-family: "Caudex", serif;
+}
+
+.navbar-expand-lg .offcanvas {
+    flex-grow: 0 !important;
+}
+
+#homepage {
+    height: 950px;
+    width: 100%;
+    background-image: url("../images/bg-01.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    overflow: hidden;
+}
+.reflective .container{
+    overflow: visible;
+}
+
+.content {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.content h4 {
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.content h1 {
+    font-size: 5rem;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.content a {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.content .btn:hover{
+    background-color: transparent;
+    border: 1px solid;
+    
+}
+
+nav {
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.063);
+}
+
+.product_content {
+    text-align: end;
+
+}
+
+
+
+.product_image{
+    height:700px;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/bg-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 150px;
+
+    }
+
+
+.image_2 img{
+    position:absolute;
+    margin-left: -147px;
+    margin-top: 169px;
+}
+
+
+
+.product_content h4{
+    margin-top: 100px;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ font-weight: 100;
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ 
+
+}
+.product_content h1{
+    margin-top: 50px;
+    font-size: 64px;
+ 
+
+}
+.product_content p{
+    padding: 20px 0 20px 95px;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.product_content a{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+.product_content a{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+.product_content .btn:hover {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+
+
+.product_image1{
+    height:700px;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/bg-04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -84px;
+    margin-bottom: 50px;
+
+    }
+
+
+.image_3 img{
+    position:absolute;
+    margin-left:420px;
+    margin-top: 169px;
+}
+
+
+
+.product_content1 h4{
+    margin-top: 100px;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.product_content1 h1{
+    margin-top: 50px;
+    font-size: 64px;
+ font-weight: 100;
+
+}
+
+.product_content1 p{
+    padding: 20px 95px 20px 0;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.product_content1 a{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+.product_content1 .btn:hover {
+    background-color: transparent;
+    border: 1px solid black;
+  }
+
+
+
+
+.product_view{
+    padding:50px 0;
+
+}
+.flex-d-c{
+    flex-direction: column;
+ 
+}
+
+.g-h-6{
+    gap: 76px;
+}
+.product_item{
+    padding: 20px 0;
+    gap: 30px;
+    flex-wrap: nowrap;
+     
+}
+.product_view h4{
+    font-size: 16px;
+    initial-letter: 1px;
+}
+.product_view h1{
+    font-size: 64px;
+    font-weight: 100;
+}
+
+
+.product_details{
+    height: 500px;
+    width: 300px;
+    text-align: left;
+}
+.product_details img{
+   width: 300px;
+}
+.product_details h4{
+   padding:5px 0;
+   font-size: 16px;
+}
+.product_details h3{
+   padding:5px 0;
+   font-size: 16px;
+}
+.product_details i{
+   padding:5px 0;
+   font-size: 16px;
+}
+
+.product_details h2{
+   padding:5px 0;
+   font-weight: 900;
+}
+.fragrance_section {
+    padding: 60px 0;
+}
+
+/* Fragrance Images */
+.fragrance_image {
+    gap: 20px;
+}
+
+.fragrance_image img {
+    height: 241px;
+    width: 265px;
+    object-fit: cover;
+}
+
+/* Text and Button Styles */
+.fragrance_side h1 {
+    margin-top: 72px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.fragrance_side h1::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fragrance_side a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.fragrance_side .btn:hover{
+    border: 1px solid black;
+    background-color: transparent;
+
+}
+
+/* Gap utility */
+
+.main_image img{
+width: 632px;
+}
+.reflective{
+    margin-top: 20px;
+}
+
+.bg-image{
+    height: 530px;
+        background-image: url(../images/bg-02.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+}
+
+.content_item{
+    text-align: left;
+    margin-top: 87px;
+    margin-left: 50px;
+}
+
+.content_item h3 {
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.content_item h1 {
+    color: white;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+.content_item p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+.content_item a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 30px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
+.content_item a:hover {
+    background-color: transparent;
+    border: 1px solid white ;
+    color: white;
+}
+
+.per_images img{
+    
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    width: 302px;
+    margin-top: 106px;
+    margin-right: 761px;
+}
+
+.category{
+    padding: 20px ;
+}
+
+.category_view{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.category_view h4{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+.category_view h1{
+    text-align: center;
+    font-size: 64px;
+    
+}
+
+.category_view h1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    margin-left: 200px;
+    margin-top: 100px;
+    background: black;
+
+}
+.category_item{
+    padding: 20px 0;
+    margin-top: 60px;
+     
+}
+
+
+.category_details img{
+    width:90%;
+}
+
+.category_name{
+text-align: center;
+ width:100%;
+ background-color: #ffffffb3;
+ transform: translate(0, -80px);
+
+}
+.category_name h1{
+ font-size: 16px;
+ padding: 5px 0;
+}
+.category_name h3{
+ font-size: 10px;
+padding: 0 0 5px 0;
+}
+.category_name h3 a{
+ text-decoration: none;
+}
+
+
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: left;
+    border-bottom: 1px solid white;
+background-attachment: fixed;
+
+}
+
+.footer_information{
+    margin-top: 10px;
+    padding: 20px;
+}
+.footer_information h3{
+    padding: 15px 0 0 0;
+    margin-top:20px;
+    font-size: 16px;
+
+   
+}
+.footer_information a{
+text-decoration: none;   
+color: white;
+font-size: 16px;
+padding: 10px 0;
+}
+.footer_information h1{
+    font-size: 20px;
+}
+.footer_information h2{
+    font-size: 16px;
+    margin-top: 55px;
+}
+
+.copy_right_icon{
+    background-color: black;
+    color: white;
+}
+
+.copy_right{
+    padding: 20px 0;
+}
+.copy_right h1{
+    font-size: 16px;
+}
+
+.footer_name{
+margin-top: 40px;
+} 
+
+/* about us page  */
+
+.header_1{
+    height:50vh;
+    background-image:url("../images/bg-11.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#navbar_1{
+    background-color: white;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.content_1{
+    margin-top: 300px;
+    
+
+}
+.content_1 h4{
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: white;
+    
+}
+.content_1 h1{
+    font-size: 5rem;
+    color: white;
+    
+}
+.content_1 p a{
+    text-decoration: none;
+    font-size:16px;
+    cursor: pointer;
+    color: white;
+    
+}
+.content_1 p{
+    text-decoration: none;
+    font-size:16px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.company_details{
+    padding: 50px 0;
+}
+
+
+.company_details h4{
+    font-size: 16px;
+    padding: 20px 0;
+    letter-spacing: 2px;
+}
+.company_details h1{
+    padding: 20px 0;
+    font-size:5rem;
+    font-weight: 500;
+}
+.company_details p{
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+#background_img{
+    height:80vh;
+    width: 100%;
+    background-image:url("../images/bg-13.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+#history_sec{
+    padding: 50px 0;
+    
+}
+.history_image img{
+width: 100%;
+}
+.history_text{
+    margin: 20px 0px 20px 0;
+    text-align: center;
+}
+
+.history_text h4{
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.history_text h1{
+    font-size: 75px;
+    font-weight: 100;
+}
+.history_text p{
+    padding:20px;
+    font-size: 14px;
+}
+
+/* Contact Us page */
+.contact_us_text{
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 50px;
+  
+}
+
+#border_bottom{
+    border-bottom: 1px solid black;
+
+}
+.contact_us_text h4{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top:50px;
+}
+.contact_us_text h1{
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+
+.Contact_details_1 h2{
+margin: 30px 0 30px 0;
+    font-size: 32px;
+    font-weight: 200;
+}
+.Contact_details_1 h4{
+    font-size: 16px;
+    font-weight: 900;
+}
+.Contact_details_1 h3{
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.follow_icon i{
+    font-size: 20px;
+    z-index: 11;
+    width: 40px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 39px;
+    text-align: center;}
+
+
+/* From Uiverse.io by Yaya12085 */ 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px 0;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+  
+  .title::before,.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: black;
+  }
+  
+  .title::before {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+
+  }
+  
+  .signin {
+    margin-right: 0;
+    text-align: center;
+}
+
+  .signin a {
+    color: royalblue;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+  
+  .form label {
+    position: relative;
+    width: 100%;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+
+
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: green;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 0;
+    width: 100%;
+    transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+
+
+  .map{
+    padding: 20px 0;
+  }
+
+
+  /* Buy Perfumes */
+
+  .shop_text{
+    margin-top: 150px;
+  }
+
+  .shop_text h4 a{
+    color: black;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .shop_text h4 {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  .shop_text h1{
+    margin-top: 10px;
+    font-size: 5.5rem;
+    font-weight: 100;
+  }
+
+  .shop_text1 {
+    margin-top: 50px;
+    text-align: end;
+    margin-right: 30px;
+}
+#opt{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 12px;
+}
+#opt option{
+    padding: 20px 0;
+}
+.text_item{
+    margin-top: 10px;
+}
+
+.text_item h3{
+    font-size: 16px;
+}
+.text_item h2{
+    font-weight: 900;
+}
+.icon i{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.product_items strong{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.product_items{
+    flex-basis: 320px;
+    margin-top: 20px;
+    padding: 30px 0;
+}
+
+.j-start{
+    justify-content: start !important;
+}
+.images_size img {
+ 
+    object-fit: contain;
+}
+
+
+
+.item_1{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
